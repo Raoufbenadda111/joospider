@@ -64,13 +64,18 @@ const Navbar: React.FC<NavbarProps> = ({ language, toggleLanguage }) => {
             <img 
               src="/lovable-uploads/1dc77e45-085a-4aee-bafe-e9d8ef11df78.png" 
               alt="Joospider Logo" 
-              className="h-12 w-12 rounded-full animate-pulse-red"
+              className="h-12 w-12 rounded-full animate-pulse-red" 
             />
-            <span className="text-xl font-bold ml-2 text-white">JOOSPIDER</span>
+           <span className="text-xl font-bold ml-2 text-white">
+  {language === 'ar' ? 'جوسبايدر' : 'JOOSPIDER'}
+</span>
           </Link>
           
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className={cn(
+  "hidden md:flex items-center",
+  isRtl ? "flex-row-reverse gap-x-8" : "gap-x-8"
+)}>
             {currentNavItems.map((item) => (
               <Link 
                 key={item.path} 

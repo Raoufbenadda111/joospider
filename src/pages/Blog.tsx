@@ -33,7 +33,6 @@ const Blog: React.FC<BlogProps> = ({ language }) => {
         events: 'Events',
         features: 'Features'
       },
-      viewMore: 'View More Posts'
     },
     ar: {
       title: 'المدونة',
@@ -46,7 +45,6 @@ const Blog: React.FC<BlogProps> = ({ language }) => {
         events: 'فعاليات',
         features: 'مميزات'
       },
-      viewMore: 'عرض المزيد من المنشورات'
     }
   };
   
@@ -55,7 +53,7 @@ const Blog: React.FC<BlogProps> = ({ language }) => {
   const blogPosts: BlogPost[] = [
     {
       id: 1,
-      title: language === 'en' ? 'New Album "JOOR3A\'RAP " ' : 'الألبوم الجديد " جرعة راب  "',
+      title: language === 'en' ? 'New EP "JOOR3A\'RAP " ' : 'الألبوم الجديد " جرعة راب  "',
       excerpt: language === 'en' 
         ? 'A new album from Joospider, which contains 7 songs.'
         : ' ألبوم جديد من فريق Joospider، والذي يحمل 7 اغنيات . ',
@@ -69,7 +67,7 @@ const Blog: React.FC<BlogProps> = ({ language }) => {
       excerpt: language === 'en'
         ? 'Direct contact with rappers increases a lot of things in you that you, as a page owner or as a rap listener, may not be aware of.'
         : 'الإحتكاك المباشر مع الرابر يزيد فيك بزاف حاجات نتا كمالك لصفحة او كمستمع للراب ما تكونش على دراية بيهم',
-      image: 'https://media.sssinstagram.com/get?__sig=Kgqwen-D_sGBL-yNx1d1-Q&__expires=1745188480&uri=https%3A%2F%2Finstagram.fphl1-1.fna.fbcdn.net%2Fv%2Ft51.29350-15%2F436452280_1499618347629634_865673058705487535_n.webp%3Fstp%3Ddst-jpg_e35_tt6%26_nc_ht%3Dinstagram.fphl1-1.fna.fbcdn.net%26_nc_cat%3D110%26_nc_oc%3DQ6cZ2QFN6GL2zkLmiSpara7EQ_4YyiZdse5VWP_epwP3bTyNaWfRg47Y32N7ZoFVoqfCQJJ0zrxlAhj0rJRaIpz6Novq%26_nc_ohc%3DOLdKLIgeNUIQ7kNvwEiZky5%26_nc_gid%3DO0iyLeVKmRfZLh9N3THJjQ%26edm%3DANTKIIoBAAAA%26ccb%3D7-5%26oh%3D00_AfGA7LEjLa3Lc2qKYQJ-zNamt-SEsrjHRqyobSG2IMJlJQ%26oe%3D680B47BB%26_nc_sid%3Dd885a2&filename=436452280_1499618347629634_865673058705487535_n.webp',
+      image: 'https://i.postimg.cc/gjgCFt1L/436452280-1499618347629634-865673058705487535-n.jpg',
       date: '2024-04-10',
       category: 'events'
     },
@@ -77,9 +75,9 @@ const Blog: React.FC<BlogProps> = ({ language }) => {
       id: 3,
       title: language === 'en' ? 'GOLDEN JOOSPIDER ( 2024 ) ' : 'جولدن جوسبايدر (2024) "',
       excerpt: language === 'en'
-        ? 'GOLDEN JOOSPIDER AWARD FOR BEST SONG OF 2024.'
+        ? 'GOLDEN JOOSPIDER AWARD IN  2024.'
         : 'جائزة جولدن جوسبايدر لإختيار احسن اغنية لسنة 2024 ',
-      image: 'https://media.sssinstagram.com/get?__sig=zgoEmDWl_6njeKvrOw4wSA&__expires=1745189162&uri=https%3A%2F%2Finstagram.fphl1-1.fna.fbcdn.net%2Fv%2Ft51.29350-15%2F471952062_1003719631598046_6866075924803228722_n.webp%3Fstp%3Ddst-jpg_e35_p1080x1080_tt6%26_nc_ht%3Dinstagram.fphl1-1.fna.fbcdn.net%26_nc_cat%3D106%26_nc_oc%3DQ6cZ2QFQartgHObDUTjpde3TG5OBl769JE38ixPh_UEBkAaYJwCBgOxNnz-6yQ2mbdy7O_wmNH-AknTE7xj07Iql9o4B%26_nc_ohc%3Dq9xTlf-pY_kQ7kNvwGmGHbJ%26_nc_gid%3D5aVVZKhpGHMpvfxStcL1dg%26edm%3DANTKIIoBAAAA%26ccb%3D7-5%26oh%3D00_AfHVdnA3QXMz9n8exrJKRjWaJX7NmTCPTVaD10h0fHrI-A%26oe%3D680B325B%26_nc_sid%3Dd885a2&filename=471952062_1003719631598046_6866075924803228722_n.webp',
+      image: 'https://i.postimg.cc/ncwy35v6/GOLDEN-JOOSPIDER-2024-which-best-TRACK-in-2024-1-SMAUGER-by-skorpvision-lmad-c2-OR.jpg',
       date: '2024-04-05',
       category: 'features'
     },
@@ -116,14 +114,6 @@ const Blog: React.FC<BlogProps> = ({ language }) => {
                 <BlogCard post={post} language={language} />
               </RevealOnScroll>
             ))}
-          </div>
-          
-          <div className="text-center mt-16">
-            <RevealOnScroll>
-              <Button className="web-btn px-8">
-                {text.viewMore}
-              </Button>
-            </RevealOnScroll>
           </div>
         </div>
       </div>

@@ -35,16 +35,16 @@ description: language === 'en' ? 'Stay connected with the heartbeat of Algerian 
     {
       id: 1,
       title: language === 'en' ? 'Black Hoodie' : 'هودي أسود',
-      image: 'https://i.postimg.cc/pXtxD3Jk/3.jpg'
+      image: 'https://media.sssinstagram.com/get?__sig=tN2sxBw8FhXxVBfDUEuzhw&__expires=1745229191&uri=https%3A%2F%2Finstagram.fphl1-1.fna.fbcdn.net%2Fv%2Ft51.29350-15%2F467887393_1053070409952136_9110533124292352742_n.webp%3Fstp%3Ddst-jpg_e35_s1080x1080_tt6%26_nc_ht%3Dinstagram.fphl1-1.fna.fbcdn.net%26_nc_cat%3D104%26_nc_oc%3DQ6cZ2QGmfclEWxsDV1fQywe7Wva_yvqnCMziFSeVbBOouL2Ipv3FjqGkgdZ39VuCZxBgCG1NGgARFLg75Z62BBy3NWMr%26_nc_ohc%3DXQPwIY6Z0C8Q7kNvwGC_gnH%26_nc_gid%3DJw_QW3MMM7k5n_RpEJ0m7Q%26edm%3DANTKIIoBAAAA%26ccb%3D7-5%26oh%3D00_AfEhVYKCuTjFoxfx3EIOwrEM9aYD3P9OMWRLUI7GEu9bAA%26oe%3D680BCD76%26_nc_sid%3Dd885a2&filename=467887393_1053070409952136_9110533124292352742_n.webp'
     },
     {
       id: 2,
-      title: language === 'en' ? 'Red Cap' : 'قبعة حمراء',
-      image: 'https://i.postimg.cc/hjknZYWD/1.jpg'
+      title: language === 'en' ? 'Keyring ' : 'حلقة مفاتيح',
+      image: 'https://media.sssinstagram.com/get?__sig=wDH2A6uVS9LgnufY4owW_g&__expires=1745229352&uri=https%3A%2F%2Finstagram.fphl1-1.fna.fbcdn.net%2Fv%2Ft51.2885-15%2F484459987_17997140534770138_2108847406195683862_n.webp%3Fstp%3Ddst-jpg_e35_s1080x1080_sh0.08_tt6%26_nc_ht%3Dinstagram.fphl1-1.fna.fbcdn.net%26_nc_cat%3D110%26_nc_oc%3DQ6cZ2QHa1gxPmnH9kYFp0KeNJkio73w7OH0oQbdwXCrhsdjdyEJZDXQlMRxts8DWXHBDaih1wEPLY4F-KT7xvMMZvRLL%26_nc_ohc%3Daq37H560o6MQ7kNvwEZfM9A%26_nc_gid%3DF3koWsg_Ak1UWuUxLKRzqQ%26edm%3DANTKIIoBAAAA%26ccb%3D7-5%26oh%3D00_AfFAyyKHcPdkXLmXtj-Z4GJuqxZDqzliz5ylEhyswpQQrw%26oe%3D680BCBF5%26_nc_sid%3Dd885a2&filename=484459987_17997140534770138_2108847406195683862_n.webp'
     },
     {
       id: 3,
-      title: language === 'en' ? 'Spider T-Shirt' : 'تيشيرت العنكبوت',
+      title: language === 'en' ? 'Black T-Shirt' : 'تيشيرت أسود',
       image: 'https://i.postimg.cc/9X9CwcZr/5.jpg'
     }
   ];

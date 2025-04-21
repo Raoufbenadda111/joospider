@@ -59,7 +59,9 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, language, onAddToCar
         <p className={cn(
           "text-white/70 mb-4",
           isRtl && "text-lg"
-        )}>${product.price.toFixed(2)}</p>
+        )}>
+            {language === 'ar' ? 'د.ج' : 'DA'}{product.price.toFixed(2)}
+        </p>
       </div>
       <button
         onClick={handleAddToCart}
