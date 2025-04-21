@@ -43,7 +43,7 @@
 
   * {
     outline: 1px solid transparent; /* يسهل كشف العنصر المتجاوز */
-    overflow: hidden; 
+    overflow-y: hidden; 
   }
   
 
