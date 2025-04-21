@@ -55,7 +55,7 @@ const Blog: React.FC<BlogProps> = ({ language }) => {
       id: 1,
       title: language === 'en' ? 'New EP "JOOR3A\'RAP " ' : 'الألبوم الجديد " جرعة راب  "',
       excerpt: language === 'en' 
-        ? 'A new album from Joospider, which contains 7 songs.'
+        ? 'A new Ep from Joospider, which contains 7 songs.'
         : ' ألبوم جديد من فريق Joospider، والذي يحمل 7 اغنيات . ',
       image: 'https://i.postimg.cc/DwXqtJX7/Screenshot-3.png',
       date: '2024-04-15',
