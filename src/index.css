@@ -39,10 +39,12 @@
 
   html {
     scroll-behavior: smooth;
-    overflow-x: hidden; 
-    
-
   }
+
+  * {
+    outline: 1px solid red; /* يسهل كشف العنصر المتجاوز */
+  }
+  
 
   body {
     @apply bg-spider-dark text-white font-sans;
