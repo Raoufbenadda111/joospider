@@ -42,7 +42,7 @@
   }
 
   * {
-    outline: 1px solid red; /* يسهل كشف العنصر المتجاوز */
+    outline: 1px solid transparent; /* يسهل كشف العنصر المتجاوز */
   }
   
 
