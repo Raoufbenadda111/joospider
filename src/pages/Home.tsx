@@ -12,7 +12,7 @@ interface HomeProps {
 const Home: React.FC<HomeProps> = ({ language }) => {
   const text = {
     hero: {
-      heading: language === 'en' ? 'Welcome to Joospider webite' : 'مرحبًا بكم في موقع جوسبايدر',
+      heading: language === 'en' ? 'Welcome to Joospider website' : 'مرحبًا بكم في موقع جوسبايدر',
       subheading: language === 'en' ? ' Best Rap Media in Algeria' : ' أفضل صفحة إعلام الراب في الجزائر ',
 description: language === 'en' ? 'Stay connected with the heartbeat of Algerian rap — fresh news, hot updates, and exclusive drops all in one place.' : 'ابق على اتصال مع نبض موسيقى الراب الجزائرية - الأخبار الطازجة والتحديثات الساخنة والإصدارات الحصرية، كل ذلك في مكان واحد.',
       cta: language === 'en' ? 'Explore Music' : 'استكشاف الموسيقى',
