@@ -58,3 +58,7 @@ max-width: 1280px;
 .read-the-docs {
   color: #888;
 }
+
+body {
+  overflow-x: hidden ;
+}
