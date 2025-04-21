@@ -10,7 +10,7 @@ interface ProductCardProps {
     image: string;
   };
   language: 'en' | 'ar';
-  onAddToCart: (product: any) => void;
+  onAddToCart: (product: { id: number; name: string; price: number; image: string }) => void;
 }
 
 const ProductCard: React.FC<ProductCardProps> = ({ product, language, onAddToCart }) => {
