@@ -50,21 +50,21 @@ const Store: React.FC<StoreProps> = ({ language }) => {
       name: language === 'en' ? 'JOOSPIDER\'S HOODIE BLACK' : 'هودي جوسبايدر في اللون الاسود ',
       price: 1900 ,
       image: 'https://i.postimg.cc/1RTPDV14/joospider-HOODIE-AVAILABLE-FOR-SALE-SIZE-S-M-L-XL-PRICE-3500-DADELEVRY-TO-58-WILAYACO.jpg',
-      category: 'hoodie',
+      category: language === 'en' ? 'hoodie' : 'هودي',
     },
     {
       id: 7,
       name: language === 'en' ? 'JOOSPIDER\'S T-SHIRT WHITE ' : 'هودي جوسبايدر في اللون الأبيض ',
       price: 1900 ,
       image: 'https://i.postimg.cc/Bnf0VW60/joospider-T-SHIRT-AVAILABLE-FOR-SALE-SIZE-S-M-L-XL-PRINCE-1900-DADELEVRY-TO-58-WILAYA.jpg',
-      category: 't-shirt',
+      category: language === 'en' ? 't-shirt' : 'اقمصة ',
     },
     {
       id: 8,
       name: language === 'en' ? 'KEYRING   ' : 'حلقة مفاتيح  ',
       price: 200  ,
       image: 'https://i.postimg.cc/X7CWLNnL/joospider-KEYRING-PRICE-200-DACONTACT-artlockdesignspg124-LIVRAISON-58-WILAYA.webp',
-      category: 'accessories',
+      category: language === 'en' ? 'accessories' : 'اخرى',
     },
   ];
 
@@ -97,9 +97,9 @@ const Store: React.FC<StoreProps> = ({ language }) => {
         'احصل على منتجات جوسبايدر الرسمية. من الملابس إلى الموسيقى، اعثر على العناصر الحصرية التي تناسب أسلوبك.',
       categories: {
         all: 'جميع المنتجات',
-        clothing: 'ملابس',
-        accessories: 'إكسسوارات',
-        music: 'موسيقى',
+        clothing: 'هودي',
+        "t-shirt": 'اقمصة ',
+        other: 'اخرى ',
       },
       cart: {
         title: 'سلة التسوق',
