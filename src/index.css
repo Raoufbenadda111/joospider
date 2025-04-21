@@ -43,6 +43,8 @@
 
   body {
     @apply bg-spider-dark text-white font-sans;
+    @apply overflow-x-hidden;
+
   }
 
   /* Arabic typography improvements */
