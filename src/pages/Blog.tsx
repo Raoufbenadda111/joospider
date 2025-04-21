@@ -77,7 +77,7 @@ const Blog: React.FC<BlogProps> = ({ language }) => {
       excerpt: language === 'en'
         ? 'GOLDEN JOOSPIDER AWARD IN  2024.'
         : 'جائزة جولدن جوسبايدر لإختيار احسن اغنية لسنة 2024 ',
-      image: 'https://i.postimg.cc/ncwy35v6/GOLDEN-JOOSPIDER-2024-which-best-TRACK-in-2024-1-SMAUGER-by-skorpvision-lmad-c2-OR.jpg',
+      image: 'https://i.postimg.cc/pLXXVbft/490981041-1442749917103848-2444450614573245541-n.jpg',
       date: '2024-04-05',
       category: 'features'
     },
